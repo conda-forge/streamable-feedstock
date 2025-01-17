@@ -1,5 +1,5 @@
 {% set name = "streamable" %}
-{% set version = "1.4.5" %}
+{% set version = "1.4.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ebonnal/streamable/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: afaa78f1395b5dc6ad7291ce2256ba4a2a8fd2de628040880998adc28fbb2b6d
+  sha256: 7a402d0f5cb51129b55287cf494d96a0b98c2ec16198f4f31527a5f00449be95
 
 build:
   noarch: python
