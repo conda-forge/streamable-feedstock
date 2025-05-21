@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: streamable
-  version: 1.5.1
+  version: "1.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ebonnal/streamable/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 984970598ab84e9990367e2be5c6181e65c0edd30f0b32d4883c46bd59834477
+  sha256: 3a9fbd6d8c149a449dc02460f7d94d9a0247daac68b36227b24a9c838fa4c886
 
 build:
   number: 0
@@ -31,7 +31,7 @@ tests:
         - streamable
       pip_check: true
       python_version: ${{ python_min }}.*
-  
+
 about:
   summary: Stream-like manipulation of iterables
   license: Apache-2.0
