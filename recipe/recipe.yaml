@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: streamable
-  version: "2.0.0"
+  version: "2.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ebonnal/streamable/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: dec03c6f4b2d7a7ad6decf773bee06c847f07e7628bd0787c0967d719729ce27
+  sha256: fcf1cbd7876e65ede807de9b542d00817dd01c46ab9dfd9f15e7bb6cbee59482
 
 build:
   number: 0
